@@ -10,7 +10,7 @@ function Home() {
           src="https://pluspng.com/img-png/avengers-logo-png-avengers-logo-png-1376.png"
           alt="Avengers logo"
         />
-        <h4>Danger this is classified information!</h4>
+        <h4><span class='blink'>Danger this is classified information!</span></h4>
         <Link
           className="btn btn-outline-light btn-lg"
           role="button"
