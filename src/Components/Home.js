@@ -16,16 +16,16 @@ function Home() {
           role="button"
           to="/avengers"
         >
-          ENTER
-        </Link>
-      </div>
-      <div className="home-wrapper">
-        <img
+          <div className="home-wrapper">
+        <figure><img
           className="home-img"
           src="https://st3.depositphotos.com/2927373/18205/i/450/depositphotos_182059154-stock-photo-prague-czech-republic-january-colorful.jpg"
           alt="Avengers comic book"
-        />
+        /></figure>
       </div>
+        </Link>
+      </div>
+      
     </>
   );
 }

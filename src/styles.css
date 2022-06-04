@@ -1,114 +1,76 @@
 html,
 body {
- 
+  /* background: rgb(184, 24, 24); */
   margin: 0;
-  background-color: rgb(211, 221, 240);
+  background-color: cornflowerblue;
   min-height: 100vh;
 }
 h1,
 h3,
 h4 {
-  color: rgb(12, 179, 190);
+  color: rgb(94, 255, 0);
 }
 .App {
-  
   font-family: sans-serif;
   text-align: center;
   width: 100%;
-  
+  min-height: 75vh;
 }
+
 .app-container {
   max-width: 900px;
   margin: 0 auto;
 }
- .logo {
-   border: 2px dashed rgb(94, 255, 0);
-   max-width: 50%;
-   height: 85px;
-   
-  }
-  .comic-img {
-    border-radius: 20px ;
-    max-width: 100%;
-    width: 95%;
-  height: 550px;
-   
-  }
-img {
-  border:2px dashed rgba(0, 38, 255, 0.87);
-  max-width: 100%;
-  height: auto;
-}
-button{
-  border:1px solid red;
-  border-radius: 10px;
-}
 .home-wrapper {
   display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  padding: 50px;
+  flex-flow: column nowrap;
   align-items: center;
-  height: 700px;
+ 
 }
+.home-img {
+  width: 300px;
+	height: 15vh;
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.home-img:hover{
+  -webkit-transform: scale(1);
+	transform: scale(1);
+  width: 350px;
+}
+.logo {
+  width: 15%;
+}
+.btn {
+  color: black;
+  background-color: white;
+  align-items: center;
 
+  margin-bottom: 420px;
+  width: 50%;
+
+  height: 64px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.btn:hover {
+  background-color: rgb(243, 247, 242);
+}
 nav {
-  
-  height: 25px;
+  height: 50px;
   background-color: cornflowerblue;
-  
+
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
 nav a {
-  
-  height: 25px;
-  padding: 5 0px;
-  color: rgb(9, 12, 9);
+  padding: 10px;
+  color: rgb(43, 43, 255);
   text-decoration: none;
   font-size: 1.2rem;
 }
-/* This Ends the styles for the landing page Home.js */
-.char-card img {
-  width: 200px;
-  height: auto;
-  border-radius: 50%;
-  margin: 20px;
-}
 
-.char-card {
- 
-  border: 1px solid rgb(141, 37, 37);
-  width: 300px;
-  margin: 20px auto;
-}
-.char-page {
-  
-  background-color: rgb(159, 166, 180);
-}
-.char-page img {
-  border: 1px dashed black;
-  width: 100%;
-}
-
-ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-li {
-  border: 1px solid silver;
-  padding: 15px;
-  width: 30%;
-  margin: 0 auto;
-  margin: 10px;
-}
-
-.avenger-name {
-  cursor: pointer;
-}
