@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Link } from "react-router-dom";
 import AvengerDetails from "./AvengerDetails";
 import AvengerMovies from "./AvengerMovies";
-
+import "./avengers.css";
 import "../styles.css";
 
 function AvengerPage(props) {
@@ -12,7 +12,7 @@ function AvengerPage(props) {
   if (!avenger) return <h1>Loading...</h1>;
   return (
     <div className="char-page">
-      <h1>Avengers Page</h1>
+      <h1>Avengers Heros Page</h1>
       <img src={avenger.img} alt={avenger.name} />
       <h2>{avenger.name}</h2>
       <h4>({avenger.nickname})</h4>
